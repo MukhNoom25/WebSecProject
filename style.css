@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaf3ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 15px;
+    color: #00264d;
+    font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #99bbdd;
+    border-radius: 6px;
+    background-color: #f9fbff;
+    font-size: 14px;
+}
+
+.booking-form button {
+    background-color: #004080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.booking-form button:hover {
+    background-color: #0059b3;
+}
+
+.info-box {
+    background-color: #f0f8ff;
+    padding: 12px;
+    margin-top: 12px;
+    border-left: 5px solid #004080;
+    border-radius: 6px;
+    color: #002244;
+    display: none;
+}
+
+/* ✅ SESSION ALERT MESSAGES */
+.error {
+    background-color: #ffe0e0;
+    color: #a80000;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-left: 5px solid #cc0000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #e0ffe0;
+    color: #006600;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-left: 5px solid #009900;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* 🚫 Hide layout for small devices */
+@media (max-width: 991px) {
+    body, .container {
+        display: none;
+    }
+}
